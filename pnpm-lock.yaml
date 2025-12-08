@@ -21,19 +21,19 @@ importers:
         version: 29.6.3
       '@rollup/plugin-commonjs':
         specifier: ^28.0.6
-        version: 28.0.6(rollup@4.50.2)
+        version: 28.0.6(rollup@4.53.3)
       '@rollup/plugin-node-resolve':
         specifier: ^16.0.1
-        version: 16.0.1(rollup@4.50.2)
+        version: 16.0.1(rollup@4.53.3)
       '@rollup/plugin-replace':
         specifier: ^6.0.2
-        version: 6.0.2(rollup@4.50.2)
+        version: 6.0.2(rollup@4.53.3)
       '@rollup/plugin-terser':
         specifier: ^0.4.0
-        version: 0.4.4(rollup@4.50.2)
+        version: 0.4.4(rollup@4.53.3)
       '@rollup/plugin-typescript':
         specifier: ^12.1.4
-        version: 12.1.4(rollup@4.50.2)(tslib@2.8.1)(typescript@5.8.3)
+        version: 12.1.4(rollup@4.53.3)(tslib@2.8.1)(typescript@5.8.3)
       '@shopify/eslint-plugin':
         specifier: ^45.0.0
         version: 45.0.0(@babel/core@7.27.4)(eslint@8.57.1)(jest@29.7.0(@types/node@24.5.2)(ts-node@10.9.2(@swc/core@1.13.3)(@types/node@24.5.2)(typescript@5.8.3)))(prettier@3.6.2)(typescript@5.8.3)
@@ -74,11 +74,11 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1
       rollup:
-        specifier: ^4.50.2
-        version: 4.50.2
+        specifier: ^4.53.3
+        version: 4.53.3
       rollup-plugin-exclude-dependencies-from-bundle:
         specifier: ^1.1.24
-        version: 1.1.24(rollup@4.50.2)
+        version: 1.1.24(rollup@4.53.3)
       ts-jest:
         specifier: ^29.4.0
         version: 29.4.1(@babel/core@7.27.4)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.27.4))(jest-util@30.0.5)(jest@29.7.0(@types/node@24.5.2)(ts-node@10.9.2(@swc/core@1.13.3)(@types/node@24.5.2)(typescript@5.8.3)))(typescript@5.8.3)
@@ -109,7 +109,7 @@ importers:
         version: 30.0.5
       rollup-plugin-dts:
         specifier: ^6.2.1
-        version: 6.2.3(rollup@4.50.2)(typescript@5.9.2)
+        version: 6.2.3(rollup@4.53.3)(typescript@5.9.2)
 
   packages/api-clients/api-codegen-preset:
     dependencies:
@@ -146,7 +146,7 @@ importers:
         version: 5.1.5(@types/node@24.5.2)(encoding@0.1.13)(graphql@16.11.0)(typescript@5.9.2)
       rollup-plugin-dts:
         specifier: ^6.2.1
-        version: 6.2.3(rollup@4.50.2)(typescript@5.9.2)
+        version: 6.2.3(rollup@4.53.3)(typescript@5.9.2)
 
   packages/api-clients/graphql-client:
     devDependencies:
@@ -164,7 +164,7 @@ importers:
         version: 3.0.3(encoding@0.1.13)
       rollup-plugin-dts:
         specifier: ^6.2.1
-        version: 6.2.3(rollup@4.50.2)(typescript@5.9.2)
+        version: 6.2.3(rollup@4.53.3)(typescript@5.9.2)
 
   packages/api-clients/storefront-api-client:
     dependencies:
@@ -183,22 +183,22 @@ importers:
         version: 30.0.5
       rollup-plugin-dts:
         specifier: ^6.2.1
-        version: 6.2.3(rollup@4.50.2)(typescript@5.9.2)
+        version: 6.2.3(rollup@4.53.3)(typescript@5.9.2)
 
   packages/apps/session-storage/shopify-app-session-storage:
     devDependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
 
   packages/apps/session-storage/shopify-app-session-storage-drizzle:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -241,10 +241,10 @@ importers:
         version: 3.888.0(@aws-sdk/client-dynamodb@3.888.0)
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
     devDependencies:
       '@shopify/shopify-app-session-storage-test-utils':
         specifier: ^4.0.0
@@ -254,10 +254,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       compare-versions:
         specifier: ^6.1.1
         version: 6.1.1
@@ -276,10 +276,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
     devDependencies:
       '@shopify/shopify-app-session-storage-test-utils':
         specifier: ^4.0.0
@@ -289,10 +289,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       mongodb:
         specifier: ^6.17.0
         version: 6.18.0(socks@2.8.3)
@@ -305,10 +305,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       mysql2:
         specifier: ^3.14.2
         version: 3.14.2
@@ -321,10 +321,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       pg:
         specifier: ^8.16.3
         version: 8.16.3
@@ -343,10 +343,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
     devDependencies:
       '@prisma/client':
         specifier: ^6.16.2
@@ -362,10 +362,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       redis:
         specifier: ^4.6.14
         version: 4.7.0
@@ -378,10 +378,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       sqlite3:
         specifier: ^5.1.7
         version: 5.1.7
@@ -397,10 +397,10 @@ importers:
     devDependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
 
   packages/apps/shopify-api:
     dependencies:
@@ -445,8 +445,8 @@ importers:
         specifier: ^4.20250913.0
         version: 4.20250913.0
       rollup:
-        specifier: ^4.50.2
-        version: 4.50.2
+        specifier: ^4.53.3
+        version: 4.53.3
       supertest:
         specifier: ^7.1.3
         version: 7.1.4
@@ -458,13 +458,13 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../session-storage/shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       '@shopify/shopify-app-session-storage-memory':
         specifier: ^5.0.0
-        version: link:../session-storage/shopify-app-session-storage-memory
+        version: 5.0.3(@shopify/shopify-api@12.1.2)(@shopify/shopify-app-session-storage@4.0.3(@shopify/shopify-api@12.1.2))
       compare-versions:
         specifier: ^6.1.1
         version: 6.1.1
@@ -492,10 +492,10 @@ importers:
         version: link:../../api-clients/admin-api-client
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../session-storage/shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       '@shopify/storefront-api-client':
         specifier: ^1.0.9
         version: link:../../api-clients/storefront-api-client
@@ -523,7 +523,7 @@ importers:
         version: 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@shopify/shopify-app-session-storage-memory':
         specifier: ^5.0.0
-        version: link:../session-storage/shopify-app-session-storage-memory
+        version: 5.0.3(@shopify/shopify-api@12.1.2)(@shopify/shopify-app-session-storage@4.0.3(@shopify/shopify-api@12.1.2))
       '@types/react':
         specifier: ^19.1.13
         version: 19.1.13
@@ -544,10 +544,10 @@ importers:
         version: link:../../api-clients/admin-api-client
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../shopify-api
+        version: 12.1.2
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../session-storage/shopify-app-session-storage
+        version: 4.0.3(@shopify/shopify-api@12.1.2)
       '@shopify/storefront-api-client':
         specifier: ^1.0.9
         version: link:../../api-clients/storefront-api-client
@@ -584,7 +584,7 @@ importers:
         version: 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@shopify/shopify-app-session-storage-memory':
         specifier: ^5.0.0
-        version: link:../session-storage/shopify-app-session-storage-memory
+        version: 5.0.3(@shopify/shopify-api@12.1.2)(@shopify/shopify-app-session-storage@4.0.3(@shopify/shopify-api@12.1.2))
       '@types/react':
         specifier: ^19.1.13
         version: 19.1.13
@@ -2994,8 +2994,8 @@ packages:
     resolution: {integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==}
     engines: {node: '>= 10.0.0'}
 
-  '@petamoriken/float16@3.9.2':
-    resolution: {integrity: sha512-VgffxawQde93xKxT3qap3OH+meZf7VaSB5Sqd4Rqc+FP5alWbpOyan/7tRbOAvynjpG3GpdtAuGU/NdhQpmrog==}
+  '@petamoriken/float16@3.9.3':
+    resolution: {integrity: sha512-8awtpHXCx/bNpFt4mt2xdkgtgVvKqty8VbjHI/WWWQuEw+KLzFot3f4+LkQY9YmOtq7A5GdOnqoIC8Pdygjk2g==}
 
   '@pkgr/core@0.2.9':
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
@@ -3198,113 +3198,121 @@ packages:
       rollup:
         optional: true
 
-  '@rollup/rollup-android-arm-eabi@4.50.2':
-    resolution: {integrity: sha512-uLN8NAiFVIRKX9ZQha8wy6UUs06UNSZ32xj6giK/rmMXAgKahwExvK6SsmgU5/brh4w/nSgj8e0k3c1HBQpa0A==}
+  '@rollup/rollup-android-arm-eabi@4.53.3':
+    resolution: {integrity: sha512-mRSi+4cBjrRLoaal2PnqH82Wqyb+d3HsPUN/W+WslCXsZsyHa9ZeQQX/pQsZaVIWDkPcpV6jJ+3KLbTbgnwv8w==}
     cpu: [arm]
     os: [android]
 
-  '@rollup/rollup-android-arm64@4.50.2':
-    resolution: {integrity: sha512-oEouqQk2/zxxj22PNcGSskya+3kV0ZKH+nQxuCCOGJ4oTXBdNTbv+f/E3c74cNLeMO1S5wVWacSws10TTSB77g==}
+  '@rollup/rollup-android-arm64@4.53.3':
+    resolution: {integrity: sha512-CbDGaMpdE9sh7sCmTrTUyllhrg65t6SwhjlMJsLr+J8YjFuPmCEjbBSx4Z/e4SmDyH3aB5hGaJUP2ltV/vcs4w==}
     cpu: [arm64]
     os: [android]
 
-  '@rollup/rollup-darwin-arm64@4.50.2':
-    resolution: {integrity: sha512-OZuTVTpj3CDSIxmPgGH8en/XtirV5nfljHZ3wrNwvgkT5DQLhIKAeuFSiwtbMto6oVexV0k1F1zqURPKf5rI1Q==}
+  '@rollup/rollup-darwin-arm64@4.53.3':
+    resolution: {integrity: sha512-Nr7SlQeqIBpOV6BHHGZgYBuSdanCXuw09hon14MGOLGmXAFYjx1wNvquVPmpZnl0tLjg25dEdr4IQ6GgyToCUA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@rollup/rollup-darwin-x64@4.50.2':
-    resolution: {integrity: sha512-Wa/Wn8RFkIkr1vy1k1PB//VYhLnlnn5eaJkfTQKivirOvzu5uVd2It01ukeQstMursuz7S1bU+8WW+1UPXpa8A==}
+  '@rollup/rollup-darwin-x64@4.53.3':
+    resolution: {integrity: sha512-DZ8N4CSNfl965CmPktJ8oBnfYr3F8dTTNBQkRlffnUarJ2ohudQD17sZBa097J8xhQ26AwhHJ5mvUyQW8ddTsQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@rollup/rollup-freebsd-arm64@4.50.2':
-    resolution: {integrity: sha512-QkzxvH3kYN9J1w7D1A+yIMdI1pPekD+pWx7G5rXgnIlQ1TVYVC6hLl7SOV9pi5q9uIDF9AuIGkuzcbF7+fAhow==}
+  '@rollup/rollup-freebsd-arm64@4.53.3':
+    resolution: {integrity: sha512-yMTrCrK92aGyi7GuDNtGn2sNW+Gdb4vErx4t3Gv/Tr+1zRb8ax4z8GWVRfr3Jw8zJWvpGHNpss3vVlbF58DZ4w==}
     cpu: [arm64]
     os: [freebsd]
 
-  '@rollup/rollup-freebsd-x64@4.50.2':
-    resolution: {integrity: sha512-dkYXB0c2XAS3a3jmyDkX4Jk0m7gWLFzq1C3qUnJJ38AyxIF5G/dyS4N9B30nvFseCfgtCEdbYFhk0ChoCGxPog==}
+  '@rollup/rollup-freebsd-x64@4.53.3':
+    resolution: {integrity: sha512-lMfF8X7QhdQzseM6XaX0vbno2m3hlyZFhwcndRMw8fbAGUGL3WFMBdK0hbUBIUYcEcMhVLr1SIamDeuLBnXS+Q==}
     cpu: [x64]
     os: [freebsd]
 
-  '@rollup/rollup-linux-arm-gnueabihf@4.50.2':
-    resolution: {integrity: sha512-9VlPY/BN3AgbukfVHAB8zNFWB/lKEuvzRo1NKev0Po8sYFKx0i+AQlCYftgEjcL43F2h9Ui1ZSdVBc4En/sP2w==}
+  '@rollup/rollup-linux-arm-gnueabihf@4.53.3':
+    resolution: {integrity: sha512-k9oD15soC/Ln6d2Wv/JOFPzZXIAIFLp6B+i14KhxAfnq76ajt0EhYc5YPeX6W1xJkAdItcVT+JhKl1QZh44/qw==}
     cpu: [arm]
     os: [linux]
 
-  '@rollup/rollup-linux-arm-musleabihf@4.50.2':
-    resolution: {integrity: sha512-+GdKWOvsifaYNlIVf07QYan1J5F141+vGm5/Y8b9uCZnG/nxoGqgCmR24mv0koIWWuqvFYnbURRqw1lv7IBINw==}
+  '@rollup/rollup-linux-arm-musleabihf@4.53.3':
+    resolution: {integrity: sha512-vTNlKq+N6CK/8UktsrFuc+/7NlEYVxgaEgRXVUVK258Z5ymho29skzW1sutgYjqNnquGwVUObAaxae8rZ6YMhg==}
     cpu: [arm]
     os: [linux]
 
-  '@rollup/rollup-linux-arm64-gnu@4.50.2':
-    resolution: {integrity: sha512-df0Eou14ojtUdLQdPFnymEQteENwSJAdLf5KCDrmZNsy1c3YaCNaJvYsEUHnrg+/DLBH612/R0xd3dD03uz2dg==}
+  '@rollup/rollup-linux-arm64-gnu@4.53.3':
+    resolution: {integrity: sha512-RGrFLWgMhSxRs/EWJMIFM1O5Mzuz3Xy3/mnxJp/5cVhZ2XoCAxJnmNsEyeMJtpK+wu0FJFWz+QF4mjCA7AUQ3w==}
     cpu: [arm64]
     os: [linux]
 
-  '@rollup/rollup-linux-arm64-musl@4.50.2':
-    resolution: {integrity: sha512-iPeouV0UIDtz8j1YFR4OJ/zf7evjauqv7jQ/EFs0ClIyL+by++hiaDAfFipjOgyz6y6xbDvJuiU4HwpVMpRFDQ==}
+  '@rollup/rollup-linux-arm64-musl@4.53.3':
+    resolution: {integrity: sha512-kASyvfBEWYPEwe0Qv4nfu6pNkITLTb32p4yTgzFCocHnJLAHs+9LjUu9ONIhvfT/5lv4YS5muBHyuV84epBo/A==}
     cpu: [arm64]
     os: [linux]
 
-  '@rollup/rollup-linux-loong64-gnu@4.50.2':
-    resolution: {integrity: sha512-OL6KaNvBopLlj5fTa5D5bau4W82f+1TyTZRr2BdnfsrnQnmdxh4okMxR2DcDkJuh4KeoQZVuvHvzuD/lyLn2Kw==}
+  '@rollup/rollup-linux-loong64-gnu@4.53.3':
+    resolution: {integrity: sha512-JiuKcp2teLJwQ7vkJ95EwESWkNRFJD7TQgYmCnrPtlu50b4XvT5MOmurWNrCj3IFdyjBQ5p9vnrX4JM6I8OE7g==}
     cpu: [loong64]
     os: [linux]
 
-  '@rollup/rollup-linux-ppc64-gnu@4.50.2':
-    resolution: {integrity: sha512-I21VJl1w6z/K5OTRl6aS9DDsqezEZ/yKpbqlvfHbW0CEF5IL8ATBMuUx6/mp683rKTK8thjs/0BaNrZLXetLag==}
+  '@rollup/rollup-linux-ppc64-gnu@4.53.3':
+    resolution: {integrity: sha512-EoGSa8nd6d3T7zLuqdojxC20oBfNT8nexBbB/rkxgKj5T5vhpAQKKnD+h3UkoMuTyXkP5jTjK/ccNRmQrPNDuw==}
     cpu: [ppc64]
     os: [linux]
 
-  '@rollup/rollup-linux-riscv64-gnu@4.50.2':
-    resolution: {integrity: sha512-Hq6aQJT/qFFHrYMjS20nV+9SKrXL2lvFBENZoKfoTH2kKDOJqff5OSJr4x72ZaG/uUn+XmBnGhfr4lwMRrmqCQ==}
+  '@rollup/rollup-linux-riscv64-gnu@4.53.3':
+    resolution: {integrity: sha512-4s+Wped2IHXHPnAEbIB0YWBv7SDohqxobiiPA1FIWZpX+w9o2i4LezzH/NkFUl8LRci/8udci6cLq+jJQlh+0g==}
     cpu: [riscv64]
     os: [linux]
 
-  '@rollup/rollup-linux-riscv64-musl@4.50.2':
-    resolution: {integrity: sha512-82rBSEXRv5qtKyr0xZ/YMF531oj2AIpLZkeNYxmKNN6I2sVE9PGegN99tYDLK2fYHJITL1P2Lgb4ZXnv0PjQvw==}
+  '@rollup/rollup-linux-riscv64-musl@4.53.3':
+    resolution: {integrity: sha512-68k2g7+0vs2u9CxDt5ktXTngsxOQkSEV/xBbwlqYcUrAVh6P9EgMZvFsnHy4SEiUl46Xf0IObWVbMvPrr2gw8A==}
     cpu: [riscv64]
     os: [linux]
 
-  '@rollup/rollup-linux-s390x-gnu@4.50.2':
-    resolution: {integrity: sha512-4Q3S3Hy7pC6uaRo9gtXUTJ+EKo9AKs3BXKc2jYypEcMQ49gDPFU2P1ariX9SEtBzE5egIX6fSUmbmGazwBVF9w==}
+  '@rollup/rollup-linux-s390x-gnu@4.53.3':
+    resolution: {integrity: sha512-VYsFMpULAz87ZW6BVYw3I6sWesGpsP9OPcyKe8ofdg9LHxSbRMd7zrVrr5xi/3kMZtpWL/wC+UIJWJYVX5uTKg==}
     cpu: [s390x]
     os: [linux]
 
-  '@rollup/rollup-linux-x64-gnu@4.50.2':
-    resolution: {integrity: sha512-9Jie/At6qk70dNIcopcL4p+1UirusEtznpNtcq/u/C5cC4HBX7qSGsYIcG6bdxj15EYWhHiu02YvmdPzylIZlA==}
+  '@rollup/rollup-linux-x64-gnu@4.53.3':
+    resolution: {integrity: sha512-3EhFi1FU6YL8HTUJZ51imGJWEX//ajQPfqWLI3BQq4TlvHy4X0MOr5q3D2Zof/ka0d5FNdPwZXm3Yyib/UEd+w==}
     cpu: [x64]
     os: [linux]
 
-  '@rollup/rollup-linux-x64-musl@4.50.2':
-    resolution: {integrity: sha512-HPNJwxPL3EmhzeAnsWQCM3DcoqOz3/IC6de9rWfGR8ZCuEHETi9km66bH/wG3YH0V3nyzyFEGUZeL5PKyy4xvw==}
+  '@rollup/rollup-linux-x64-musl@4.53.3':
+    resolution: {integrity: sha512-eoROhjcc6HbZCJr+tvVT8X4fW3/5g/WkGvvmwz/88sDtSJzO7r/blvoBDgISDiCjDRZmHpwud7h+6Q9JxFwq1Q==}
     cpu: [x64]
     os: [linux]
 
-  '@rollup/rollup-openharmony-arm64@4.50.2':
-    resolution: {integrity: sha512-nMKvq6FRHSzYfKLHZ+cChowlEkR2lj/V0jYj9JnGUVPL2/mIeFGmVM2mLaFeNa5Jev7W7TovXqXIG2d39y1KYA==}
+  '@rollup/rollup-openharmony-arm64@4.53.3':
+    resolution: {integrity: sha512-OueLAWgrNSPGAdUdIjSWXw+u/02BRTcnfw9PN41D2vq/JSEPnJnVuBgw18VkN8wcd4fjUs+jFHVM4t9+kBSNLw==}
     cpu: [arm64]
     os: [openharmony]
 
-  '@rollup/rollup-win32-arm64-msvc@4.50.2':
-    resolution: {integrity: sha512-eFUvvnTYEKeTyHEijQKz81bLrUQOXKZqECeiWH6tb8eXXbZk+CXSG2aFrig2BQ/pjiVRj36zysjgILkqarS2YA==}
+  '@rollup/rollup-win32-arm64-msvc@4.53.3':
+    resolution: {integrity: sha512-GOFuKpsxR/whszbF/bzydebLiXIHSgsEUp6M0JI8dWvi+fFa1TD6YQa4aSZHtpmh2/uAlj/Dy+nmby3TJ3pkTw==}
     cpu: [arm64]
     os: [win32]
 
-  '@rollup/rollup-win32-ia32-msvc@4.50.2':
-    resolution: {integrity: sha512-cBaWmXqyfRhH8zmUxK3d3sAhEWLrtMjWBRwdMMHJIXSjvjLKvv49adxiEz+FJ8AP90apSDDBx2Tyd/WylV6ikA==}
+  '@rollup/rollup-win32-ia32-msvc@4.53.3':
+    resolution: {integrity: sha512-iah+THLcBJdpfZ1TstDFbKNznlzoxa8fmnFYK4V67HvmuNYkVdAywJSoteUszvBQ9/HqN2+9AZghbajMsFT+oA==}
     cpu: [ia32]
     os: [win32]
 
-  '@rollup/rollup-win32-x64-msvc@4.50.2':
-    resolution: {integrity: sha512-APwKy6YUhvZaEoHyM+9xqmTpviEI+9eL7LoCH+aLcvWYHJ663qG5zx7WzWZY+a9qkg5JtzcMyJ9z0WtQBMDmgA==}
+  '@rollup/rollup-win32-x64-gnu@4.53.3':
+    resolution: {integrity: sha512-J9QDiOIZlZLdcot5NXEepDkstocktoVjkaKUtqzgzpt2yWjGlbYiKyp05rWwk4nypbYUNoFAztEgixoLaSETkg==}
+    cpu: [x64]
+    os: [win32]
+
+  '@rollup/rollup-win32-x64-msvc@4.53.3':
+    resolution: {integrity: sha512-UhTd8u31dXadv0MopwGgNOBpUVROFKWVQgAg5N1ESyCz8AuBcMqm4AuTjrwgQKGDfoFuz02EuMRHQIw/frmYKQ==}
     cpu: [x64]
     os: [win32]
 
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
+
+  '@shopify/admin-api-client@1.1.1':
+    resolution: {integrity: sha512-J/cdodM7jmk9yKxHnkrnVHP2Gm70w2dFA4O3ehPvIBsXvK0PwXmiRjQOCCPfyLo442awON5soQ/XuWVSUmZL/g==}
 
   '@shopify/babel-preset@25.0.2':
     resolution: {integrity: sha512-pvcqU1Pfl779OPKYY9RH4cY4gZnw2lds7oS3YHIcJZvqo/d7DMOhSMsMA28n0iz026Cq3rjAjfYgiDA87Z81DA==}
@@ -3317,6 +3325,9 @@ packages:
   '@shopify/generate-docs@0.19.2':
     resolution: {integrity: sha512-xRX0W5pnqbFqq1x/si79/kCUklLWCzEqUi6JDp1igs1Ts7pOhwPs7GYV4rCHPHdylxYbtKnvOqQO++GVjxIdeg==}
     hasBin: true
+
+  '@shopify/graphql-client@1.4.1':
+    resolution: {integrity: sha512-/w4Uchx8ueI8gwmJd1ZbbIGndsjfMEFlzmay3P7rya5zj7K308xne/ggIvWDweueIut2qf1A8lI58xQl9Pu22w==}
 
   '@shopify/graphql-codegen@0.1.0':
     resolution: {integrity: sha512-G3sSesLj7Czt/J2Bj+XlQ8u4pkfQEt32hsjoS3UGZlf1eAiVw0aBBddp+NI5HqBAi0gM/f7GLRAhG3kktPhZmA==}
@@ -3354,6 +3365,24 @@ packages:
     peerDependencies:
       react: '>=18.0.0 <19.0.0'
       react-dom: '>=16.8.0 <19.0.0'
+
+  '@shopify/shopify-api@12.1.2':
+    resolution: {integrity: sha512-DuyPPEBGMVnFQ+rERObc4iGq2i5bra7MATwuBVXdQJBZ/VaQoLQSqZGiBsnx1Ur+CSrDVcvH8nbwniU7ptJwEg==}
+    engines: {node: '>=20.0.0'}
+
+  '@shopify/shopify-app-session-storage-memory@5.0.3':
+    resolution: {integrity: sha512-hfdSkZ/RK7AJUZmhO39q+Pcj3axgweX3cPzDG6+CdlQjmHj0abjqoYqsRZCxwwBp56JLM509UMQJG3SC8P7PzQ==}
+    peerDependencies:
+      '@shopify/shopify-api': ^12.0.0
+      '@shopify/shopify-app-session-storage': ^4.0.0
+
+  '@shopify/shopify-app-session-storage@4.0.3':
+    resolution: {integrity: sha512-sDYve2vcHvFei+JtXY5fEleLlVRfDx3phETsO2Loyw1ndwKQT3UIAV6UX0DAICBZtp/sWc3++WS/f+PCFqNv+g==}
+    peerDependencies:
+      '@shopify/shopify-api': ^12.0.0
+
+  '@shopify/storefront-api-client@1.0.9':
+    resolution: {integrity: sha512-vgc0ZczMvrbsQQFYcIIONnIiqiafpcMyq5osI8X6PB65DhnmCQEp3kSlXKOjBPzyAWYvp28nLHS0+r4xsp4yQA==}
 
   '@shopify/typescript-configs@5.1.2':
     resolution: {integrity: sha512-QNQlCxJGyKXXbLHsf4y0ZUZhmK/1LL5MN/YHl54UxakDILiBRKiWh0t7qbVo01tsyyH+YcrH7d8y9Ch2ywP8pg==}
@@ -3649,8 +3678,8 @@ packages:
     resolution: {integrity: sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==}
     engines: {node: '>= 6'}
 
-  '@tsconfig/node10@1.0.11':
-    resolution: {integrity: sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw==}
+  '@tsconfig/node10@1.0.12':
+    resolution: {integrity: sha512-UCYBaeFvM11aU2y3YPZ//O5Rhj+xKyzy7mvcIoAjASbigy8mHMryP5cK7dgjlz2hWxh1g5pLw084E0a/wlUSFQ==}
 
   '@tsconfig/node12@1.0.11':
     resolution: {integrity: sha512-cqefuRsh12pWyGsIoBKJA9luFu3mRxCA+ORZvA4ktLSzIuCUtWVxGIuXigEwO5/ywWFMZ2QEGKWvkZG1zDMTag==}
@@ -5879,6 +5908,10 @@ packages:
     resolution: {integrity: sha512-3wVJEonAns1OETX83uWsk5IAne2S5zfDcntD2hbtU23LelSqNXzXs9zKjMPOLMzroCgIjCfjYAEHrd2D6FOkiA==}
     engines: {node: '>=18'}
 
+  isbot@5.1.32:
+    resolution: {integrity: sha512-VNfjM73zz2IBZmdShMfAUg10prm6t7HFUQmNAEOAVS4YH92ZrZcvkMcGX6cIgBJAzWDzPent/EeAtYEHNPNPBQ==}
+    engines: {node: '>=18'}
+
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
@@ -6282,6 +6315,9 @@ packages:
 
   lossless-json@4.2.0:
     resolution: {integrity: sha512-bsHH3x+7acZfqokfn9Ks/ej96yF/z6oGGw1aBmXesq4r3fAjhdG4uYuqzDgZMk5g1CZUd5w3kwwIp9K1LOYUiA==}
+
+  lossless-json@4.3.0:
+    resolution: {integrity: sha512-ToxOC+SsduRmdSuoLZLYAr5zy1Qu7l5XhmPWM3zefCZ5IcrzW/h108qbJUKfOlDlhvhjUK84+8PSVX0kxnit0g==}
 
   lower-case-first@2.0.2:
     resolution: {integrity: sha512-EVm/rR94FJTZi3zefZ82fLWab+GX14LJN4HrWBcuo6Evmsl9hEfnqxgcHCKb9q+mNf6EVdsjx/qucYFIIB84pg==}
@@ -7215,8 +7251,8 @@ packages:
     peerDependencies:
       rollup: '*'
 
-  rollup@4.50.2:
-    resolution: {integrity: sha512-BgLRGy7tNS9H66aIMASq1qSYbAAJV6Z6WR4QYTvj5FgF15rZ/ympT1uixHXwzbZUBDbkvqUI1KR0fH1FhMaQ9w==}
+  rollup@4.53.3:
+    resolution: {integrity: sha512-w8GmOxZfBmKknvdXU1sdM9NHcoQejwF/4mNgj2JuEEdRaHwwF12K7e9eXn1nLZ07ad+du76mkVsyeb2rKGllsA==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
@@ -7270,6 +7306,11 @@ packages:
 
   semver@7.7.2:
     resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  semver@7.7.3:
+    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -10451,7 +10492,7 @@ snapshots:
   '@graphql-tools/optimize@2.0.0(graphql@16.11.0)':
     dependencies:
       graphql: 16.11.0
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   '@graphql-tools/prisma-loader@8.0.17(@types/node@24.5.2)(encoding@0.1.13)(graphql@16.11.0)':
     dependencies:
@@ -10487,7 +10528,7 @@ snapshots:
       '@ardatan/relay-compiler': 12.0.1(@babel/core@7.27.4)(encoding@0.1.13)(graphql@16.11.0)
       '@graphql-tools/utils': 10.9.1(graphql@16.11.0)
       graphql: 16.11.0
-      tslib: 2.8.1
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@babel/core'
       - encoding
@@ -10498,7 +10539,7 @@ snapshots:
       '@ardatan/relay-compiler': 12.0.3(encoding@0.1.13)(graphql@16.11.0)
       '@graphql-tools/utils': 10.9.1(graphql@16.11.0)
       graphql: 16.11.0
-      tslib: 2.8.1
+      tslib: 2.6.3
     transitivePeerDependencies:
       - encoding
 
@@ -11302,7 +11343,7 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.5.1
       '@parcel/watcher-win32-x64': 2.5.1
 
-  '@petamoriken/float16@3.9.2':
+  '@petamoriken/float16@3.9.3':
     optional: true
 
   '@pkgr/core@0.2.9': {}
@@ -11460,9 +11501,9 @@ snapshots:
 
   '@repeaterjs/repeater@3.0.6': {}
 
-  '@rollup/plugin-commonjs@28.0.6(rollup@4.50.2)':
+  '@rollup/plugin-commonjs@28.0.6(rollup@4.53.3)':
     dependencies:
-      '@rollup/pluginutils': 5.2.0(rollup@4.50.2)
+      '@rollup/pluginutils': 5.2.0(rollup@4.53.3)
       commondir: 1.0.1
       estree-walker: 2.0.2
       fdir: 6.4.6(picomatch@4.0.3)
@@ -11470,122 +11511,129 @@ snapshots:
       magic-string: 0.30.18
       picomatch: 4.0.3
     optionalDependencies:
-      rollup: 4.50.2
+      rollup: 4.53.3
 
-  '@rollup/plugin-node-resolve@16.0.1(rollup@4.50.2)':
+  '@rollup/plugin-node-resolve@16.0.1(rollup@4.53.3)':
     dependencies:
-      '@rollup/pluginutils': 5.1.4(rollup@4.50.2)
+      '@rollup/pluginutils': 5.1.4(rollup@4.53.3)
       '@types/resolve': 1.20.2
       deepmerge: 4.3.1
       is-module: 1.0.0
       resolve: 1.22.10
     optionalDependencies:
-      rollup: 4.50.2
+      rollup: 4.53.3
 
-  '@rollup/plugin-replace@6.0.2(rollup@4.50.2)':
+  '@rollup/plugin-replace@6.0.2(rollup@4.53.3)':
     dependencies:
-      '@rollup/pluginutils': 5.1.4(rollup@4.50.2)
+      '@rollup/pluginutils': 5.1.4(rollup@4.53.3)
       magic-string: 0.30.17
     optionalDependencies:
-      rollup: 4.50.2
+      rollup: 4.53.3
 
-  '@rollup/plugin-terser@0.4.4(rollup@4.50.2)':
+  '@rollup/plugin-terser@0.4.4(rollup@4.53.3)':
     dependencies:
       serialize-javascript: 6.0.2
       smob: 1.5.0
       terser: 5.37.0
     optionalDependencies:
-      rollup: 4.50.2
+      rollup: 4.53.3
 
-  '@rollup/plugin-typescript@12.1.4(rollup@4.50.2)(tslib@2.8.1)(typescript@5.8.3)':
+  '@rollup/plugin-typescript@12.1.4(rollup@4.53.3)(tslib@2.8.1)(typescript@5.8.3)':
     dependencies:
-      '@rollup/pluginutils': 5.2.0(rollup@4.50.2)
+      '@rollup/pluginutils': 5.2.0(rollup@4.53.3)
       resolve: 1.22.10
       typescript: 5.8.3
     optionalDependencies:
-      rollup: 4.50.2
+      rollup: 4.53.3
       tslib: 2.8.1
 
-  '@rollup/pluginutils@5.1.4(rollup@4.50.2)':
+  '@rollup/pluginutils@5.1.4(rollup@4.53.3)':
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
       picomatch: 4.0.2
     optionalDependencies:
-      rollup: 4.50.2
+      rollup: 4.53.3
 
-  '@rollup/pluginutils@5.2.0(rollup@4.50.2)':
+  '@rollup/pluginutils@5.2.0(rollup@4.53.3)':
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
       picomatch: 4.0.2
     optionalDependencies:
-      rollup: 4.50.2
+      rollup: 4.53.3
 
-  '@rollup/rollup-android-arm-eabi@4.50.2':
+  '@rollup/rollup-android-arm-eabi@4.53.3':
     optional: true
 
-  '@rollup/rollup-android-arm64@4.50.2':
+  '@rollup/rollup-android-arm64@4.53.3':
     optional: true
 
-  '@rollup/rollup-darwin-arm64@4.50.2':
+  '@rollup/rollup-darwin-arm64@4.53.3':
     optional: true
 
-  '@rollup/rollup-darwin-x64@4.50.2':
+  '@rollup/rollup-darwin-x64@4.53.3':
     optional: true
 
-  '@rollup/rollup-freebsd-arm64@4.50.2':
+  '@rollup/rollup-freebsd-arm64@4.53.3':
     optional: true
 
-  '@rollup/rollup-freebsd-x64@4.50.2':
+  '@rollup/rollup-freebsd-x64@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-arm-gnueabihf@4.50.2':
+  '@rollup/rollup-linux-arm-gnueabihf@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-arm-musleabihf@4.50.2':
+  '@rollup/rollup-linux-arm-musleabihf@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-arm64-gnu@4.50.2':
+  '@rollup/rollup-linux-arm64-gnu@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-arm64-musl@4.50.2':
+  '@rollup/rollup-linux-arm64-musl@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-loong64-gnu@4.50.2':
+  '@rollup/rollup-linux-loong64-gnu@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-ppc64-gnu@4.50.2':
+  '@rollup/rollup-linux-ppc64-gnu@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-riscv64-gnu@4.50.2':
+  '@rollup/rollup-linux-riscv64-gnu@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-riscv64-musl@4.50.2':
+  '@rollup/rollup-linux-riscv64-musl@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-s390x-gnu@4.50.2':
+  '@rollup/rollup-linux-s390x-gnu@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-x64-gnu@4.50.2':
+  '@rollup/rollup-linux-x64-gnu@4.53.3':
     optional: true
 
-  '@rollup/rollup-linux-x64-musl@4.50.2':
+  '@rollup/rollup-linux-x64-musl@4.53.3':
     optional: true
 
-  '@rollup/rollup-openharmony-arm64@4.50.2':
+  '@rollup/rollup-openharmony-arm64@4.53.3':
     optional: true
 
-  '@rollup/rollup-win32-arm64-msvc@4.50.2':
+  '@rollup/rollup-win32-arm64-msvc@4.53.3':
     optional: true
 
-  '@rollup/rollup-win32-ia32-msvc@4.50.2':
+  '@rollup/rollup-win32-ia32-msvc@4.53.3':
     optional: true
 
-  '@rollup/rollup-win32-x64-msvc@4.50.2':
+  '@rollup/rollup-win32-x64-gnu@4.53.3':
+    optional: true
+
+  '@rollup/rollup-win32-x64-msvc@4.53.3':
     optional: true
 
   '@rtsao/scc@1.1.0': {}
+
+  '@shopify/admin-api-client@1.1.1':
+    dependencies:
+      '@shopify/graphql-client': 1.4.1
 
   '@shopify/babel-preset@25.0.2':
     dependencies:
@@ -11652,6 +11700,8 @@ snapshots:
       globby: 11.1.0
       typescript: 5.8.3
 
+  '@shopify/graphql-client@1.4.1': {}
+
   '@shopify/graphql-codegen@0.1.0(@babel/core@7.27.4)(encoding@0.1.13)(graphql@16.11.0)':
     dependencies:
       '@graphql-codegen/add': 5.0.3(graphql@16.11.0)
@@ -11694,6 +11744,30 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-is: 18.3.1
       react-reconciler: 0.28.0(react@18.3.1)
+
+  '@shopify/shopify-api@12.1.2':
+    dependencies:
+      '@shopify/admin-api-client': 1.1.1
+      '@shopify/graphql-client': 1.4.1
+      '@shopify/storefront-api-client': 1.0.9
+      compare-versions: 6.1.1
+      isbot: 5.1.32
+      jose: 5.10.0
+      lossless-json: 4.3.0
+      tslib: 2.8.1
+
+  '@shopify/shopify-app-session-storage-memory@5.0.3(@shopify/shopify-api@12.1.2)(@shopify/shopify-app-session-storage@4.0.3(@shopify/shopify-api@12.1.2))':
+    dependencies:
+      '@shopify/shopify-api': 12.1.2
+      '@shopify/shopify-app-session-storage': 4.0.3(@shopify/shopify-api@12.1.2)
+
+  '@shopify/shopify-app-session-storage@4.0.3(@shopify/shopify-api@12.1.2)':
+    dependencies:
+      '@shopify/shopify-api': 12.1.2
+
+  '@shopify/storefront-api-client@1.0.9':
+    dependencies:
+      '@shopify/graphql-client': 1.4.1
 
   '@shopify/typescript-configs@5.1.2': {}
 
@@ -12069,7 +12143,7 @@ snapshots:
   '@tootallnate/once@1.1.2':
     optional: true
 
-  '@tsconfig/node10@1.0.11':
+  '@tsconfig/node10@1.0.12':
     optional: true
 
   '@tsconfig/node12@1.0.11':
@@ -14116,10 +14190,10 @@ snapshots:
 
   gel@2.0.1:
     dependencies:
-      '@petamoriken/float16': 3.9.2
+      '@petamoriken/float16': 3.9.3
       debug: 4.4.3
       env-paths: 3.0.0
-      semver: 7.7.2
+      semver: 7.7.3
       shell-quote: 1.8.3
       which: 4.0.0
     transitivePeerDependencies:
@@ -14280,7 +14354,7 @@ snapshots:
   graphql-tag@2.12.6(graphql@16.11.0):
     dependencies:
       graphql: 16.11.0
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   graphql-ws@5.16.2(graphql@16.11.0):
     dependencies:
@@ -14561,7 +14635,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   is-map@2.0.3: {}
 
@@ -14634,7 +14708,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   is-weakmap@2.0.2: {}
 
@@ -14652,6 +14726,8 @@ snapshots:
   isarray@2.0.5: {}
 
   isbot@5.1.30: {}
+
+  isbot@5.1.32: {}
 
   isexe@2.0.0: {}
 
@@ -15363,13 +15439,15 @@ snapshots:
 
   lossless-json@4.2.0: {}
 
+  lossless-json@4.3.0: {}
+
   lower-case-first@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   lru-cache@10.4.3: {}
 
@@ -16301,43 +16379,44 @@ snapshots:
       glob: 11.0.1
       package-json-from-dist: 1.0.1
 
-  rollup-plugin-dts@6.2.3(rollup@4.50.2)(typescript@5.9.2):
+  rollup-plugin-dts@6.2.3(rollup@4.53.3)(typescript@5.9.2):
     dependencies:
       magic-string: 0.30.18
-      rollup: 4.50.2
+      rollup: 4.53.3
       typescript: 5.9.2
     optionalDependencies:
       '@babel/code-frame': 7.27.1
 
-  rollup-plugin-exclude-dependencies-from-bundle@1.1.24(rollup@4.50.2):
+  rollup-plugin-exclude-dependencies-from-bundle@1.1.24(rollup@4.53.3):
     dependencies:
-      rollup: 4.50.2
+      rollup: 4.53.3
 
-  rollup@4.50.2:
+  rollup@4.53.3:
     dependencies:
       '@types/estree': 1.0.8
     optionalDependencies:
-      '@rollup/rollup-android-arm-eabi': 4.50.2
-      '@rollup/rollup-android-arm64': 4.50.2
-      '@rollup/rollup-darwin-arm64': 4.50.2
-      '@rollup/rollup-darwin-x64': 4.50.2
-      '@rollup/rollup-freebsd-arm64': 4.50.2
-      '@rollup/rollup-freebsd-x64': 4.50.2
-      '@rollup/rollup-linux-arm-gnueabihf': 4.50.2
-      '@rollup/rollup-linux-arm-musleabihf': 4.50.2
-      '@rollup/rollup-linux-arm64-gnu': 4.50.2
-      '@rollup/rollup-linux-arm64-musl': 4.50.2
-      '@rollup/rollup-linux-loong64-gnu': 4.50.2
-      '@rollup/rollup-linux-ppc64-gnu': 4.50.2
-      '@rollup/rollup-linux-riscv64-gnu': 4.50.2
-      '@rollup/rollup-linux-riscv64-musl': 4.50.2
-      '@rollup/rollup-linux-s390x-gnu': 4.50.2
-      '@rollup/rollup-linux-x64-gnu': 4.50.2
-      '@rollup/rollup-linux-x64-musl': 4.50.2
-      '@rollup/rollup-openharmony-arm64': 4.50.2
-      '@rollup/rollup-win32-arm64-msvc': 4.50.2
-      '@rollup/rollup-win32-ia32-msvc': 4.50.2
-      '@rollup/rollup-win32-x64-msvc': 4.50.2
+      '@rollup/rollup-android-arm-eabi': 4.53.3
+      '@rollup/rollup-android-arm64': 4.53.3
+      '@rollup/rollup-darwin-arm64': 4.53.3
+      '@rollup/rollup-darwin-x64': 4.53.3
+      '@rollup/rollup-freebsd-arm64': 4.53.3
+      '@rollup/rollup-freebsd-x64': 4.53.3
+      '@rollup/rollup-linux-arm-gnueabihf': 4.53.3
+      '@rollup/rollup-linux-arm-musleabihf': 4.53.3
+      '@rollup/rollup-linux-arm64-gnu': 4.53.3
+      '@rollup/rollup-linux-arm64-musl': 4.53.3
+      '@rollup/rollup-linux-loong64-gnu': 4.53.3
+      '@rollup/rollup-linux-ppc64-gnu': 4.53.3
+      '@rollup/rollup-linux-riscv64-gnu': 4.53.3
+      '@rollup/rollup-linux-riscv64-musl': 4.53.3
+      '@rollup/rollup-linux-s390x-gnu': 4.53.3
+      '@rollup/rollup-linux-x64-gnu': 4.53.3
+      '@rollup/rollup-linux-x64-musl': 4.53.3
+      '@rollup/rollup-openharmony-arm64': 4.53.3
+      '@rollup/rollup-win32-arm64-msvc': 4.53.3
+      '@rollup/rollup-win32-ia32-msvc': 4.53.3
+      '@rollup/rollup-win32-x64-gnu': 4.53.3
+      '@rollup/rollup-win32-x64-msvc': 4.53.3
       fsevents: 2.3.3
 
   rrweb-cssom@0.8.0: {}
@@ -16392,6 +16471,9 @@ snapshots:
   semver@6.3.1: {}
 
   semver@7.7.2: {}
+
+  semver@7.7.3:
+    optional: true
 
   send@0.19.0:
     dependencies:
@@ -16611,7 +16693,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   sprintf-js@1.0.3: {}
 
@@ -16779,7 +16861,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   symbol-tree@3.2.4: {}
 
@@ -16853,7 +16935,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   tldts-core@6.1.86: {}
 
@@ -16916,7 +16998,7 @@ snapshots:
   ts-node@10.9.2(@swc/core@1.13.3)(@types/node@24.5.2)(typescript@5.8.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.11
+      '@tsconfig/node10': 1.0.12
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
@@ -16937,7 +17019,7 @@ snapshots:
   ts-node@10.9.2(@swc/core@1.13.3)(@types/node@24.5.2)(typescript@5.9.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.11
+      '@tsconfig/node10': 1.0.12
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
@@ -17132,11 +17214,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   uri-js@4.4.1:
     dependencies:
