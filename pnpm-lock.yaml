@@ -86,8 +86,8 @@ importers:
         specifier: ^2.8.1
         version: 2.8.1
       turbo:
-        specifier: ^2.5.4
-        version: 2.5.6
+        specifier: ^2.7.2
+        version: 2.7.2
       typescript:
         specifier: 5.8.3
         version: 5.8.3
@@ -189,16 +189,16 @@ importers:
     devDependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
 
   packages/apps/session-storage/shopify-app-session-storage-drizzle:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -241,10 +241,10 @@ importers:
         version: 3.888.0(@aws-sdk/client-dynamodb@3.888.0)
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
     devDependencies:
       '@shopify/shopify-app-session-storage-test-utils':
         specifier: ^4.0.0
@@ -254,10 +254,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       compare-versions:
         specifier: ^6.1.1
         version: 6.1.1
@@ -276,10 +276,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
     devDependencies:
       '@shopify/shopify-app-session-storage-test-utils':
         specifier: ^4.0.0
@@ -289,10 +289,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       mongodb:
         specifier: ^6.17.0
         version: 6.18.0(socks@2.8.3)
@@ -305,10 +305,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       mysql2:
         specifier: ^3.14.2
         version: 3.14.2
@@ -321,10 +321,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       pg:
         specifier: ^8.16.3
         version: 8.16.3
@@ -343,10 +343,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
     devDependencies:
       '@prisma/client':
         specifier: ^6.16.2
@@ -362,10 +362,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       redis:
         specifier: ^4.6.14
         version: 4.7.0
@@ -378,10 +378,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       sqlite3:
         specifier: ^5.1.7
         version: 5.1.7
@@ -397,10 +397,10 @@ importers:
     devDependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
 
   packages/apps/shopify-api:
     dependencies:
@@ -458,13 +458,13 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../session-storage/shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       '@shopify/shopify-app-session-storage-memory':
         specifier: ^5.0.0
-        version: link:../session-storage/shopify-app-session-storage-memory
+        version: 5.0.4(@shopify/shopify-api@12.2.0)(@shopify/shopify-app-session-storage@4.0.4(@shopify/shopify-api@12.2.0))
       compare-versions:
         specifier: ^6.1.1
         version: 6.1.1
@@ -492,10 +492,10 @@ importers:
         version: link:../../api-clients/admin-api-client
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../session-storage/shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       '@shopify/storefront-api-client':
         specifier: ^1.0.9
         version: link:../../api-clients/storefront-api-client
@@ -523,7 +523,7 @@ importers:
         version: 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@shopify/shopify-app-session-storage-memory':
         specifier: ^5.0.0
-        version: link:../session-storage/shopify-app-session-storage-memory
+        version: 5.0.4(@shopify/shopify-api@12.2.0)(@shopify/shopify-app-session-storage@4.0.4(@shopify/shopify-api@12.2.0))
       '@types/react':
         specifier: ^19.1.13
         version: 19.1.13
@@ -544,10 +544,10 @@ importers:
         version: link:../../api-clients/admin-api-client
       '@shopify/shopify-api':
         specifier: ^12.0.0
-        version: link:../shopify-api
+        version: 12.2.0
       '@shopify/shopify-app-session-storage':
         specifier: ^4.0.0
-        version: link:../session-storage/shopify-app-session-storage
+        version: 4.0.4(@shopify/shopify-api@12.2.0)
       '@shopify/storefront-api-client':
         specifier: ^1.0.9
         version: link:../../api-clients/storefront-api-client
@@ -584,7 +584,7 @@ importers:
         version: 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@shopify/shopify-app-session-storage-memory':
         specifier: ^5.0.0
-        version: link:../session-storage/shopify-app-session-storage-memory
+        version: 5.0.4(@shopify/shopify-api@12.2.0)(@shopify/shopify-app-session-storage@4.0.4(@shopify/shopify-api@12.2.0))
       '@types/react':
         specifier: ^19.1.13
         version: 19.1.13
@@ -2994,8 +2994,8 @@ packages:
     resolution: {integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==}
     engines: {node: '>= 10.0.0'}
 
-  '@petamoriken/float16@3.9.2':
-    resolution: {integrity: sha512-VgffxawQde93xKxT3qap3OH+meZf7VaSB5Sqd4Rqc+FP5alWbpOyan/7tRbOAvynjpG3GpdtAuGU/NdhQpmrog==}
+  '@petamoriken/float16@3.9.3':
+    resolution: {integrity: sha512-8awtpHXCx/bNpFt4mt2xdkgtgVvKqty8VbjHI/WWWQuEw+KLzFot3f4+LkQY9YmOtq7A5GdOnqoIC8Pdygjk2g==}
 
   '@pkgr/core@0.2.9':
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
@@ -3306,6 +3306,9 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
+  '@shopify/admin-api-client@1.1.1':
+    resolution: {integrity: sha512-J/cdodM7jmk9yKxHnkrnVHP2Gm70w2dFA4O3ehPvIBsXvK0PwXmiRjQOCCPfyLo442awON5soQ/XuWVSUmZL/g==}
+
   '@shopify/babel-preset@25.0.2':
     resolution: {integrity: sha512-pvcqU1Pfl779OPKYY9RH4cY4gZnw2lds7oS3YHIcJZvqo/d7DMOhSMsMA28n0iz026Cq3rjAjfYgiDA87Z81DA==}
 
@@ -3317,6 +3320,9 @@ packages:
   '@shopify/generate-docs@0.19.2':
     resolution: {integrity: sha512-xRX0W5pnqbFqq1x/si79/kCUklLWCzEqUi6JDp1igs1Ts7pOhwPs7GYV4rCHPHdylxYbtKnvOqQO++GVjxIdeg==}
     hasBin: true
+
+  '@shopify/graphql-client@1.4.1':
+    resolution: {integrity: sha512-/w4Uchx8ueI8gwmJd1ZbbIGndsjfMEFlzmay3P7rya5zj7K308xne/ggIvWDweueIut2qf1A8lI58xQl9Pu22w==}
 
   '@shopify/graphql-codegen@0.1.0':
     resolution: {integrity: sha512-G3sSesLj7Czt/J2Bj+XlQ8u4pkfQEt32hsjoS3UGZlf1eAiVw0aBBddp+NI5HqBAi0gM/f7GLRAhG3kktPhZmA==}
@@ -3354,6 +3360,24 @@ packages:
     peerDependencies:
       react: '>=18.0.0 <19.0.0'
       react-dom: '>=16.8.0 <19.0.0'
+
+  '@shopify/shopify-api@12.2.0':
+    resolution: {integrity: sha512-SlSGlVcGPjIrdv8FwRYhZeZ6Zj7Itff/AQiJyL0zrORFBDuBdezGw+grqJYL7qvoc7sRBmjaavrEfcEOqKtJng==}
+    engines: {node: '>=20.0.0'}
+
+  '@shopify/shopify-app-session-storage-memory@5.0.4':
+    resolution: {integrity: sha512-NJkgU/PsxPzpItjObg8rBkPUyXETsgiwNM+KciVJSkW8eBstIuuk+qbkgms4TKmNMo3ALTTtj8lkGNcGgj95yg==}
+    peerDependencies:
+      '@shopify/shopify-api': ^12.0.0
+      '@shopify/shopify-app-session-storage': ^4.0.0
+
+  '@shopify/shopify-app-session-storage@4.0.4':
+    resolution: {integrity: sha512-XEVgj7h8EkY64TyDjrGDAkpuD4/GX/Mtfa3hq82lRqxnVPVLc1gfY8JwkUGYJjvv140IMQi4FvT5VLmmHsQfgA==}
+    peerDependencies:
+      '@shopify/shopify-api': ^12.0.0
+
+  '@shopify/storefront-api-client@1.0.9':
+    resolution: {integrity: sha512-vgc0ZczMvrbsQQFYcIIONnIiqiafpcMyq5osI8X6PB65DhnmCQEp3kSlXKOjBPzyAWYvp28nLHS0+r4xsp4yQA==}
 
   '@shopify/typescript-configs@5.1.2':
     resolution: {integrity: sha512-QNQlCxJGyKXXbLHsf4y0ZUZhmK/1LL5MN/YHl54UxakDILiBRKiWh0t7qbVo01tsyyH+YcrH7d8y9Ch2ywP8pg==}
@@ -3649,8 +3673,8 @@ packages:
     resolution: {integrity: sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==}
     engines: {node: '>= 6'}
 
-  '@tsconfig/node10@1.0.11':
-    resolution: {integrity: sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw==}
+  '@tsconfig/node10@1.0.12':
+    resolution: {integrity: sha512-UCYBaeFvM11aU2y3YPZ//O5Rhj+xKyzy7mvcIoAjASbigy8mHMryP5cK7dgjlz2hWxh1g5pLw084E0a/wlUSFQ==}
 
   '@tsconfig/node12@1.0.11':
     resolution: {integrity: sha512-cqefuRsh12pWyGsIoBKJA9luFu3mRxCA+ORZvA4ktLSzIuCUtWVxGIuXigEwO5/ywWFMZ2QEGKWvkZG1zDMTag==}
@@ -5879,6 +5903,10 @@ packages:
     resolution: {integrity: sha512-3wVJEonAns1OETX83uWsk5IAne2S5zfDcntD2hbtU23LelSqNXzXs9zKjMPOLMzroCgIjCfjYAEHrd2D6FOkiA==}
     engines: {node: '>=18'}
 
+  isbot@5.1.32:
+    resolution: {integrity: sha512-VNfjM73zz2IBZmdShMfAUg10prm6t7HFUQmNAEOAVS4YH92ZrZcvkMcGX6cIgBJAzWDzPent/EeAtYEHNPNPBQ==}
+    engines: {node: '>=18'}
+
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
@@ -6282,6 +6310,9 @@ packages:
 
   lossless-json@4.2.0:
     resolution: {integrity: sha512-bsHH3x+7acZfqokfn9Ks/ej96yF/z6oGGw1aBmXesq4r3fAjhdG4uYuqzDgZMk5g1CZUd5w3kwwIp9K1LOYUiA==}
+
+  lossless-json@4.3.0:
+    resolution: {integrity: sha512-ToxOC+SsduRmdSuoLZLYAr5zy1Qu7l5XhmPWM3zefCZ5IcrzW/h108qbJUKfOlDlhvhjUK84+8PSVX0kxnit0g==}
 
   lower-case-first@2.0.2:
     resolution: {integrity: sha512-EVm/rR94FJTZi3zefZ82fLWab+GX14LJN4HrWBcuo6Evmsl9hEfnqxgcHCKb9q+mNf6EVdsjx/qucYFIIB84pg==}
@@ -7273,6 +7304,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.3:
+    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@0.19.0:
     resolution: {integrity: sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==}
     engines: {node: '>= 0.8.0'}
@@ -7722,41 +7758,41 @@ packages:
   tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
 
-  turbo-darwin-64@2.5.6:
-    resolution: {integrity: sha512-3C1xEdo4aFwMJAPvtlPqz1Sw/+cddWIOmsalHFMrsqqydcptwBfu26WW2cDm3u93bUzMbBJ8k3zNKFqxJ9ei2A==}
+  turbo-darwin-64@2.7.2:
+    resolution: {integrity: sha512-dxY3X6ezcT5vm3coK6VGixbrhplbQMwgNsCsvZamS/+/6JiebqW9DKt4NwpgYXhDY2HdH00I7FWs3wkVuan4rA==}
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-arm64@2.5.6:
-    resolution: {integrity: sha512-LyiG+rD7JhMfYwLqB6k3LZQtYn8CQQUePbpA8mF/hMLPAekXdJo1g0bUPw8RZLwQXUIU/3BU7tXENvhSGz5DPA==}
+  turbo-darwin-arm64@2.7.2:
+    resolution: {integrity: sha512-1bXmuwPLqNFt3mzrtYcVx1sdJ8UYb124Bf48nIgcpMCGZy3kDhgxNv1503kmuK/37OGOZbsWSQFU4I08feIuSg==}
     cpu: [arm64]
     os: [darwin]
 
-  turbo-linux-64@2.5.6:
-    resolution: {integrity: sha512-GOcUTT0xiT/pSnHL4YD6Yr3HreUhU8pUcGqcI2ksIF9b2/r/kRHwGFcsHgpG3+vtZF/kwsP0MV8FTlTObxsYIA==}
+  turbo-linux-64@2.7.2:
+    resolution: {integrity: sha512-kP+TiiMaiPugbRlv57VGLfcjFNsFbo8H64wMBCPV2270Or2TpDCBULMzZrvEsvWFjT3pBFvToYbdp8/Kw0jAQg==}
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-arm64@2.5.6:
-    resolution: {integrity: sha512-10Tm15bruJEA3m0V7iZcnQBpObGBcOgUcO+sY7/2vk1bweW34LMhkWi8svjV9iDF68+KJDThnYDlYE/bc7/zzQ==}
+  turbo-linux-arm64@2.7.2:
+    resolution: {integrity: sha512-VDJwQ0+8zjAfbyY6boNaWfP6RIez4ypKHxwkuB6SrWbOSk+vxTyW5/hEjytTwK8w/TsbKVcMDyvpora8tEsRFw==}
     cpu: [arm64]
     os: [linux]
 
   turbo-stream@2.4.1:
     resolution: {integrity: sha512-v8kOJXpG3WoTN/+at8vK7erSzo6nW6CIaeOvNOkHQVDajfz1ZVeSxCbc6tOH4hrGZW7VUCV0TOXd8CPzYnYkrw==}
 
-  turbo-windows-64@2.5.6:
-    resolution: {integrity: sha512-FyRsVpgaj76It0ludwZsNN40ytHN+17E4PFJyeliBEbxrGTc5BexlXVpufB7XlAaoaZVxbS6KT8RofLfDRyEPg==}
+  turbo-windows-64@2.7.2:
+    resolution: {integrity: sha512-rPjqQXVnI6A6oxgzNEE8DNb6Vdj2Wwyhfv3oDc+YM3U9P7CAcBIlKv/868mKl4vsBtz4ouWpTQNXG8vljgJO+w==}
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-arm64@2.5.6:
-    resolution: {integrity: sha512-j/tWu8cMeQ7HPpKri6jvKtyXg9K1gRyhdK4tKrrchH8GNHscPX/F71zax58yYtLRWTiK04zNzPcUJuoS0+v/+Q==}
+  turbo-windows-arm64@2.7.2:
+    resolution: {integrity: sha512-tcnHvBhO515OheIFWdxA+qUvZzNqqcHbLVFc1+n+TJ1rrp8prYicQtbtmsiKgMvr/54jb9jOabU62URAobnB7g==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.5.6:
-    resolution: {integrity: sha512-gxToHmi9oTBNB05UjUsrWf0OyN5ZXtD0apOarC1KIx232Vp3WimRNy3810QzeNSgyD5rsaIDXlxlbnOzlouo+w==}
+  turbo@2.7.2:
+    resolution: {integrity: sha512-5JIA5aYBAJSAhrhbyag1ZuMSgUZnHtI+Sq3H8D3an4fL8PeF+L1yYvbEJg47akP1PFfATMf5ehkqFnxfkmuwZQ==}
     hasBin: true
 
   type-check@0.4.0:
@@ -7975,6 +8011,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -10451,7 +10488,7 @@ snapshots:
   '@graphql-tools/optimize@2.0.0(graphql@16.11.0)':
     dependencies:
       graphql: 16.11.0
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   '@graphql-tools/prisma-loader@8.0.17(@types/node@24.5.2)(encoding@0.1.13)(graphql@16.11.0)':
     dependencies:
@@ -10487,7 +10524,7 @@ snapshots:
       '@ardatan/relay-compiler': 12.0.1(@babel/core@7.27.4)(encoding@0.1.13)(graphql@16.11.0)
       '@graphql-tools/utils': 10.9.1(graphql@16.11.0)
       graphql: 16.11.0
-      tslib: 2.8.1
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@babel/core'
       - encoding
@@ -10498,7 +10535,7 @@ snapshots:
       '@ardatan/relay-compiler': 12.0.3(encoding@0.1.13)(graphql@16.11.0)
       '@graphql-tools/utils': 10.9.1(graphql@16.11.0)
       graphql: 16.11.0
-      tslib: 2.8.1
+      tslib: 2.6.3
     transitivePeerDependencies:
       - encoding
 
@@ -11302,7 +11339,7 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.5.1
       '@parcel/watcher-win32-x64': 2.5.1
 
-  '@petamoriken/float16@3.9.2':
+  '@petamoriken/float16@3.9.3':
     optional: true
 
   '@pkgr/core@0.2.9': {}
@@ -11587,6 +11624,10 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
+  '@shopify/admin-api-client@1.1.1':
+    dependencies:
+      '@shopify/graphql-client': 1.4.1
+
   '@shopify/babel-preset@25.0.2':
     dependencies:
       '@babel/core': 7.27.4
@@ -11652,6 +11693,8 @@ snapshots:
       globby: 11.1.0
       typescript: 5.8.3
 
+  '@shopify/graphql-client@1.4.1': {}
+
   '@shopify/graphql-codegen@0.1.0(@babel/core@7.27.4)(encoding@0.1.13)(graphql@16.11.0)':
     dependencies:
       '@graphql-codegen/add': 5.0.3(graphql@16.11.0)
@@ -11694,6 +11737,30 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-is: 18.3.1
       react-reconciler: 0.28.0(react@18.3.1)
+
+  '@shopify/shopify-api@12.2.0':
+    dependencies:
+      '@shopify/admin-api-client': 1.1.1
+      '@shopify/graphql-client': 1.4.1
+      '@shopify/storefront-api-client': 1.0.9
+      compare-versions: 6.1.1
+      isbot: 5.1.32
+      jose: 5.10.0
+      lossless-json: 4.3.0
+      tslib: 2.8.1
+
+  '@shopify/shopify-app-session-storage-memory@5.0.4(@shopify/shopify-api@12.2.0)(@shopify/shopify-app-session-storage@4.0.4(@shopify/shopify-api@12.2.0))':
+    dependencies:
+      '@shopify/shopify-api': 12.2.0
+      '@shopify/shopify-app-session-storage': 4.0.4(@shopify/shopify-api@12.2.0)
+
+  '@shopify/shopify-app-session-storage@4.0.4(@shopify/shopify-api@12.2.0)':
+    dependencies:
+      '@shopify/shopify-api': 12.2.0
+
+  '@shopify/storefront-api-client@1.0.9':
+    dependencies:
+      '@shopify/graphql-client': 1.4.1
 
   '@shopify/typescript-configs@5.1.2': {}
 
@@ -12069,7 +12136,7 @@ snapshots:
   '@tootallnate/once@1.1.2':
     optional: true
 
-  '@tsconfig/node10@1.0.11':
+  '@tsconfig/node10@1.0.12':
     optional: true
 
   '@tsconfig/node12@1.0.11':
@@ -14116,10 +14183,10 @@ snapshots:
 
   gel@2.0.1:
     dependencies:
-      '@petamoriken/float16': 3.9.2
+      '@petamoriken/float16': 3.9.3
       debug: 4.4.3
       env-paths: 3.0.0
-      semver: 7.7.2
+      semver: 7.7.3
       shell-quote: 1.8.3
       which: 4.0.0
     transitivePeerDependencies:
@@ -14280,7 +14347,7 @@ snapshots:
   graphql-tag@2.12.6(graphql@16.11.0):
     dependencies:
       graphql: 16.11.0
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   graphql-ws@5.16.2(graphql@16.11.0):
     dependencies:
@@ -14561,7 +14628,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   is-map@2.0.3: {}
 
@@ -14634,7 +14701,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   is-weakmap@2.0.2: {}
 
@@ -14652,6 +14719,8 @@ snapshots:
   isarray@2.0.5: {}
 
   isbot@5.1.30: {}
+
+  isbot@5.1.32: {}
 
   isexe@2.0.0: {}
 
@@ -15363,13 +15432,15 @@ snapshots:
 
   lossless-json@4.2.0: {}
 
+  lossless-json@4.3.0: {}
+
   lower-case-first@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   lru-cache@10.4.3: {}
 
@@ -16393,6 +16464,9 @@ snapshots:
 
   semver@7.7.2: {}
 
+  semver@7.7.3:
+    optional: true
+
   send@0.19.0:
     dependencies:
       debug: 2.6.9
@@ -16611,7 +16685,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   sprintf-js@1.0.3: {}
 
@@ -16779,7 +16853,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   symbol-tree@3.2.4: {}
 
@@ -16853,7 +16927,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   tldts-core@6.1.86: {}
 
@@ -16916,7 +16990,7 @@ snapshots:
   ts-node@10.9.2(@swc/core@1.13.3)(@types/node@24.5.2)(typescript@5.8.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.11
+      '@tsconfig/node10': 1.0.12
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
@@ -16937,7 +17011,7 @@ snapshots:
   ts-node@10.9.2(@swc/core@1.13.3)(@types/node@24.5.2)(typescript@5.9.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.11
+      '@tsconfig/node10': 1.0.12
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
@@ -16970,34 +17044,34 @@ snapshots:
     dependencies:
       safe-buffer: 5.2.1
 
-  turbo-darwin-64@2.5.6:
+  turbo-darwin-64@2.7.2:
     optional: true
 
-  turbo-darwin-arm64@2.5.6:
+  turbo-darwin-arm64@2.7.2:
     optional: true
 
-  turbo-linux-64@2.5.6:
+  turbo-linux-64@2.7.2:
     optional: true
 
-  turbo-linux-arm64@2.5.6:
+  turbo-linux-arm64@2.7.2:
     optional: true
 
   turbo-stream@2.4.1: {}
 
-  turbo-windows-64@2.5.6:
+  turbo-windows-64@2.7.2:
     optional: true
 
-  turbo-windows-arm64@2.5.6:
+  turbo-windows-arm64@2.7.2:
     optional: true
 
-  turbo@2.5.6:
+  turbo@2.7.2:
     optionalDependencies:
-      turbo-darwin-64: 2.5.6
-      turbo-darwin-arm64: 2.5.6
-      turbo-linux-64: 2.5.6
-      turbo-linux-arm64: 2.5.6
-      turbo-windows-64: 2.5.6
-      turbo-windows-arm64: 2.5.6
+      turbo-darwin-64: 2.7.2
+      turbo-darwin-arm64: 2.7.2
+      turbo-linux-64: 2.7.2
+      turbo-linux-arm64: 2.7.2
+      turbo-windows-64: 2.7.2
+      turbo-windows-arm64: 2.7.2
 
   type-check@0.4.0:
     dependencies:
@@ -17132,11 +17206,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   uri-js@4.4.1:
     dependencies:
