@@ -71,7 +71,7 @@
     "@graphql-codegen/typescript": "^4.1.6",
     "@parcel/watcher": "^2.5.1",
     "@shopify/graphql-codegen": "^0.1.0",
-    "graphql": "^16.10.0"
+    "graphql": "^16.13.2"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.28.0",
