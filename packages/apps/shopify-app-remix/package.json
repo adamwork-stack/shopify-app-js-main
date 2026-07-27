@@ -89,7 +89,7 @@
     "@shopify/react-testing": "^6.0.0",
     "@shopify/shopify-app-session-storage-memory": "^5.0.0",
     "@types/react": "^19.1.13",
-    "jest-fetch-mock": "^3.0.3"
+    "jest-fetch-mock": "^3.2.0"
   },
   "dependencies": {
     "@remix-run/server-runtime": "^2.16.8",
